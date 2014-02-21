@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Flappy Bird</string>
+    <string name="show_demo_voice_trigger">flappy bird</string><!-- Menu item strings. -->
+    <string name="stop">Stop</string>
+</resources>
