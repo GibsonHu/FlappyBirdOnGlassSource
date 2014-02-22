@@ -24,10 +24,10 @@ public class AssetLoader {
 
     public static void load() {
 
-        texture = new Texture(Gdx.files.internal("data/texture.png"));
+        texture = new Texture(Gdx.files.internal("data/texture2.png"));
         texture.setFilter(TextureFilter.Nearest, TextureFilter.Nearest);
 
-        bg = new TextureRegion(texture, 0, 0, 136, 43);
+        bg = new TextureRegion(texture, 0, 0, 136, 90);
         bg.flip(false, true);
 
         grass = new TextureRegion(texture, 0, 43, 143, 11);
@@ -46,7 +46,7 @@ public class AssetLoader {
         birdAnimation = new Animation(0.06f, birds);
         birdAnimation.setPlayMode(Animation.LOOP_PINGPONG);
 
-        skullUp = new TextureRegion(texture, 192, 0, 24, 14);
+        skullUp = new TextureRegion(texture, 192, 0, 30, 20);
         // Create by flipping existing skullUp
         skullDown = new TextureRegion(skullUp);
         skullDown.flip(false, true);

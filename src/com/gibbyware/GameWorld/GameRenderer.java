@@ -108,24 +108,25 @@ public class GameRenderer {
         // We will fix this when we finish the Pipe class.
 
         batcher.draw(skullUp, pipe1.getX() - 1,
-                pipe1.getY() + pipe1.getHeight() - 14, 24, 14);
+                pipe1.getY() + pipe1.getHeight() - 20, 24, 20);
         batcher.draw(skullDown, pipe1.getX() - 1,
-                pipe1.getY() + pipe1.getHeight() + 45, 24, 14);
+                pipe1.getY() + pipe1.getHeight() + 45, 24, 20);
 
         batcher.draw(skullUp, pipe2.getX() - 1,
-                pipe2.getY() + pipe2.getHeight() - 14, 24, 14);
+                pipe2.getY() + pipe2.getHeight() - 20, 24, 20);
         batcher.draw(skullDown, pipe2.getX() - 1,
-                pipe2.getY() + pipe2.getHeight() + 45, 24, 14);
+                pipe2.getY() + pipe2.getHeight() + 45, 24, 20);
 
         batcher.draw(skullUp, pipe3.getX() - 1,
-                pipe3.getY() + pipe3.getHeight() - 14, 24, 14);
+                pipe3.getY() + pipe3.getHeight() - 20, 24, 20);
         batcher.draw(skullDown, pipe3.getX() - 1,
-                pipe3.getY() + pipe3.getHeight() + 45, 24, 14);
+                pipe3.getY() + pipe3.getHeight() + 45, 24, 20);
     }
 
     private void drawPipes() {
         // Temporary code! Sorry about the mess :)
         // We will fix this when we finish the Pipe class.
+        batcher.enableBlending();
         batcher.draw(bar, pipe1.getX(), pipe1.getY(), pipe1.getWidth(),
                 pipe1.getHeight());
         batcher.draw(bar, pipe1.getX(), pipe1.getY() + pipe1.getHeight() + 45,
@@ -165,7 +166,7 @@ public class GameRenderer {
 
         batcher.begin();
         batcher.disableBlending();
-        batcher.draw(bg, 0, midPointY + 23, 136, 43);
+        batcher.draw(bg, 0, 0, 136, 136);
 
         // 1. Draw Grass
         drawGrass();

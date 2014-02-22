@@ -33,6 +33,14 @@ public class MainActivity extends AndroidApplication {
             gameBirdGame.InputClick();
             return true;
         }
+
+        if (keycode == KeyEvent.KEYCODE_BACK) {
+            // Tap back to end app
+            this.finish();
+            return true;
+        }
+
+
         return false;
     }
 

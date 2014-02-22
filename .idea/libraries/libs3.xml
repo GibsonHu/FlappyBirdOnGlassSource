@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="libs3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/tween-engine-api-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/bodyeditor-loader-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/tween-engine-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/bodyeditor-loader.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/gdk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/gdx-backend-android-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/gdx.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/gdx-backend-android.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/gdx-sources.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

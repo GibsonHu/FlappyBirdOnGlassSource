@@ -22,7 +22,7 @@ public class Bird {
         this.height = height;
         position = new Vector2(x, y);
         velocity = new Vector2(0, 0);
-        acceleration = new Vector2(0, 460);
+        acceleration = new Vector2(0, 350);
         boundingCircle = new Circle();
         isAlive = true;
     }
@@ -31,8 +31,8 @@ public class Bird {
 
         velocity.add(acceleration.cpy().scl(delta));
 
-        if (velocity.y > 200) {
-            velocity.y = 200;
+        if (velocity.y > 120) {
+            velocity.y = 120;
         }
 
         position.add(velocity.cpy().scl(delta));
