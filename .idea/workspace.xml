@@ -17,14 +17,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3803c927-845a-4be6-902d-0b4a4ff2cd50" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FlappyBirdOnGlass.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/data/libgdx.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gibbyware/ZBHelpers/AssetLoader.java" afterPath="$PROJECT_DIR$/src/com/gibbyware/ZBHelpers/AssetLoader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gibbyware/GameObjects/Bird.java" afterPath="$PROJECT_DIR$/src/com/gibbyware/GameObjects/Bird.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gibbyware/GameWorld/GameRenderer.java" afterPath="$PROJECT_DIR$/src/com/gibbyware/GameWorld/GameRenderer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gibbyware/GameWorld/GameWorld.java" afterPath="$PROJECT_DIR$/src/com/gibbyware/GameWorld/GameWorld.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GitFlappyBirdOnGlass.iml" afterPath="$PROJECT_DIR$/GitFlappyBirdOnGlass.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gibbyware/GlassyBird/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/gibbyware/GlassyBird/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CardLogger.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -108,16 +107,34 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gibbyware/GlassyBird/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="22" selection-start="402" selection-end="410" vertical-scroll-proportion="0.0" vertical-offset="149" max-vertical-offset="795">
+            <state line="29" column="0" selection-start="783" selection-end="783" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="720">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GlassMainActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/gibbyware/GlassyBird/GlassMainActivity.java">
+      <file leaf-file-name="AssetLoader.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gibbyware/ZBHelpers/AssetLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="5" selection-start="708" selection-end="708" vertical-scroll-proportion="0.27816093" vertical-offset="359" max-vertical-offset="1005">
+            <state line="32" column="52" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1185">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameWorld.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/gibbyware/GameWorld/GameWorld.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="48" selection-start="862" selection-end="862" vertical-scroll-proportion="0.3962264" vertical-offset="186" max-vertical-offset="1575">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameRenderer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gibbyware/GameWorld/GameRenderer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="17" selection-start="996" selection-end="1001" vertical-scroll-proportion="-6.36" vertical-offset="291" max-vertical-offset="3525">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,69 +142,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InputHandler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gibbyware/GlassyBird/InputHandler.java">
+      <file leaf-file-name="Grass.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gibbyware/GameObjects/Grass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="1065">
+            <state line="4" column="16" selection-start="88" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="level_live_card.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/menu/level_live_card.xml">
+      <file leaf-file-name="Pipe.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gibbyware/GameObjects/Pipe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="717" selection-end="796" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="405">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameWorld.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gibbyware/GameWorld/GameWorld.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="23" selection-start="897" selection-end="904" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="1740">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bird.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gibbyware/GameObjects/Bird.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="28" selection-start="873" selection-end="873" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1965">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ic_launcher.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo_show.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/xml/demo_show.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="29" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="texture.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/data/texture.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="16" selection-start="0" selection-end="241" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+            <state line="47" column="28" selection-start="1528" selection-end="1528" vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="1695">
               <folding />
             </state>
           </provider>
@@ -620,12 +587,10 @@
         <option value="$PROJECT_DIR$/src/com/gibbyware/GlassyBird/Bird.java" />
         <option value="$PROJECT_DIR$/src/com/gibbyware/GlassyBird/GameRenderer.java" />
         <option value="$PROJECT_DIR$/src/com/gibbyware/GameObjects/Scrollable.java" />
-        <option value="$PROJECT_DIR$/src/com/gibbyware/GameWorld/GameWorld.java" />
         <option value="$PROJECT_DIR$/src/com/gibbyware/GameObjects/ScrollHandler.java" />
         <option value="$PROJECT_DIR$/src/com/gibbyware/GameObjects/Grass.java" />
         <option value="$PROJECT_DIR$/res/menu/level_live_card.xml" />
         <option value="$PROJECT_DIR$/src/com/gibbyware/GlassyBird/InputHandler.java" />
-        <option value="$PROJECT_DIR$/src/com/gibbyware/GlassyBird/GlassMainActivity.java" />
         <option value="$PROJECT_DIR$/src/com/gibbyware/ZBHelpers/InputHandler.java" />
         <option value="$PROJECT_DIR$/../GlassyBird/src/com/gibbyware/GlassyBird/GlassyBirdGame.java" />
         <option value="$PROJECT_DIR$/res/xml/demo_show.xml" />
@@ -633,11 +598,13 @@
         <option value="$PROJECT_DIR$/src/com/gibbyware/GlassyBird/GlassyBirdGame.java" />
         <option value="$PROJECT_DIR$/src/com/gibbyware/GameObjects/Pipe.java" />
         <option value="$PROJECT_DIR$/src/com/gibbyware/Screens/GameScreen.java" />
-        <option value="$PROJECT_DIR$/src/com/gibbyware/ZBHelpers/AssetLoader.java" />
-        <option value="$PROJECT_DIR$/src/com/gibbyware/GameWorld/GameRenderer.java" />
         <option value="$PROJECT_DIR$/src/com/gibbyware/GameObjects/Bird.java" />
-        <option value="$PROJECT_DIR$/src/com/gibbyware/GlassyBird/MainActivity.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/gibbyware/GameWorld/GameRenderer.java" />
+        <option value="$PROJECT_DIR$/src/com/gibbyware/GlassyBird/GlassMainActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/gibbyware/GlassyBird/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/gibbyware/ZBHelpers/AssetLoader.java" />
+        <option value="$PROJECT_DIR$/src/com/gibbyware/GameWorld/GameWorld.java" />
       </list>
     </option>
   </component>
@@ -649,10 +616,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="643" />
-    <option name="y" value="25" />
-    <option name="width" value="1189" />
-    <option name="height" value="1055" />
+    <option name="x" value="64" />
+    <option name="y" value="-4" />
+    <option name="width" value="1303" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -680,12 +647,18 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="CardLogger" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -694,7 +667,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="GitFlappyBirdOnGlass" />
+              <option name="myItemId" value="FlappyBirdOnGlass" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -704,7 +677,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="GitFlappyBirdOnGlass" />
+              <option name="myItemId" value="FlappyBirdOnGlass" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -726,7 +699,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="GitFlappyBirdOnGlass" />
+              <option name="myItemId" value="FlappyBirdOnGlass" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -748,7 +721,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="GitFlappyBirdOnGlass" />
+              <option name="myItemId" value="FlappyBirdOnGlass" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -770,7 +743,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="GitFlappyBirdOnGlass" />
+              <option name="myItemId" value="FlappyBirdOnGlass" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -792,7 +765,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="GitFlappyBirdOnGlass" />
+              <option name="myItemId" value="FlappyBirdOnGlass" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -814,93 +787,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="GitFlappyBirdOnGlass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CardLogger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GitFlappyBirdOnGlass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CardLogger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GitFlappyBirdOnGlass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CardLogger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GitFlappyBirdOnGlass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CardLogger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GitFlappyBirdOnGlass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-hdpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CardLogger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GitFlappyBirdOnGlass" />
+              <option name="myItemId" value="FlappyBirdOnGlass" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -914,25 +801,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="GitFlappyBirdOnGlass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GlassyBird" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CardLogger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GitFlappyBirdOnGlass" />
+              <option name="myItemId" value="FlappyBirdOnGlass" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -946,8 +815,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -963,7 +830,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Navisens/androidJavaFork/Motiondna" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -1288,6 +1155,23 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="3803c927-845a-4be6-902d-0b4a4ff2cd50" name="Default" comment="" />
@@ -1297,7 +1181,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="643" y="25" width="1189" height="1055" extended-state="0" />
+    <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1311,14 +1195,14 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.49174917" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22320117" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34235808" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33773378" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28446215" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33627018" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1326,12 +1210,12 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965213" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33773378" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33627018" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
+    <option name="RECENTLY_FILTERED_USERS">
       <collection />
     </option>
   </component>
@@ -1347,11 +1231,21 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/assets/data/texture.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="16" selection-start="0" selection-end="241" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="165" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gibbyware/Screens/GameScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="66" selection-start="766" selection-end="766" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1305">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1373,13 +1267,10 @@
     <entry file="file://$PROJECT_DIR$/src/com/gibbyware/GameWorld/GameRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="16" selection-start="892" selection-end="892" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="3540">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/add-ons/addon-google_gdk-google-15/libs/gdk.jar!/com/google/android/glass/timeline/LiveCard.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="1070" selection-end="1070" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="570" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gibbyware/GlassyBird/GlassMainActivity.java">
@@ -1410,23 +1301,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/xml/demo_show.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="29" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="330">
-          <folding />
-        </state>
+        <state line="16" column="29" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="330" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="72" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="165">
-          <folding />
-        </state>
+        <state line="3" column="72" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="165" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gibbyware/Screens/GameScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="66" selection-start="766" selection-end="766" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1305">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1448,7 +1335,9 @@
     <entry file="file://$PROJECT_DIR$/src/com/gibbyware/GameWorld/GameRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="16" selection-start="892" selection-end="892" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="3540">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1487,23 +1376,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/xml/demo_show.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="29" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="330">
-          <folding />
-        </state>
+        <state line="16" column="29" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="330" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="72" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="165">
-          <folding />
-        </state>
+        <state line="3" column="72" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="165" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gibbyware/Screens/GameScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="66" selection-start="766" selection-end="766" vertical-scroll-proportion="0.0" vertical-offset="348" max-vertical-offset="1305">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1525,7 +1410,9 @@
     <entry file="file://$PROJECT_DIR$/src/com/gibbyware/GameWorld/GameRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="47" selection-start="632" selection-end="632" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="3540">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1548,11 +1435,6 @@
         <state line="117" column="14" selection-start="3226" selection-end="3226" vertical-scroll-proportion="-65.0" vertical-offset="0" max-vertical-offset="1950" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gibbyware/GameObjects/Grass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="1" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/data/g.fnt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1575" />
@@ -1561,11 +1443,6 @@
     <entry file="file://$PROJECT_DIR$/src/com/gibbyware/ZBHelpers/InputHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="68" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1140" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/add-ons/addon-google_gdk-google-15/libs/gdk.jar!/com/google/android/glass/timeline/LiveCard.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="1070" selection-end="1070" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/data/shadow.fnt">
@@ -1593,47 +1470,12 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gibbyware/GameObjects/Pipe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="28" selection-start="1528" selection-end="1528" vertical-scroll-proportion="0.0" vertical-offset="434" max-vertical-offset="1470">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gibbyware/ZBHelpers/AssetLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="15" selection-start="1530" selection-end="1537" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="1185">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gibbyware/GameWorld/GameRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="16" selection-start="4958" selection-end="4958" vertical-scroll-proportion="-7.0" vertical-offset="1791" max-vertical-offset="3360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gibbyware/Screens/GameScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="23" selection-start="1198" selection-end="1204" vertical-scroll-proportion="-16.11111" vertical-offset="270" max-vertical-offset="1305">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gibbyware/GameWorld/GameWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="23" selection-start="897" selection-end="904" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="1740">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gibbyware/GameObjects/Bird.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="28" selection-start="873" selection-end="873" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1965">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1649,20 +1491,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gibbyware/GlassyBird/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="22" selection-start="402" selection-end="410" vertical-scroll-proportion="0.0" vertical-offset="149" max-vertical-offset="795">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gibbyware/GlassyBird/InputHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gibbyware/GlassyBird/GlassyBirdGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="36" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
@@ -1672,16 +1500,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="16" selection-start="0" selection-end="241" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <folding />
-        </state>
+        <state line="2" column="16" selection-start="0" selection-end="241" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/xml/demo_show.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="29" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <folding />
-        </state>
+        <state line="16" column="29" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
@@ -1694,12 +1518,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gibbyware/GameObjects/Bird.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="28" selection-start="873" selection-end="873" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="1725">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gibbyware/GlassyBird/GlassMainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="5" selection-start="708" selection-end="708" vertical-scroll-proportion="0.27816093" vertical-offset="359" max-vertical-offset="1005">
+        <state line="15" column="0" selection-start="356" selection-end="356" vertical-scroll-proportion="0.025157232" vertical-offset="213" max-vertical-offset="1005">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gibbyware/GlassyBird/InputHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="654" selection-end="654" vertical-scroll-proportion="-0.08964144" vertical-offset="375" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gibbyware/GameObjects/Pipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="28" selection-start="1528" selection-end="1528" vertical-scroll-proportion="0.0" vertical-offset="434" max-vertical-offset="1470">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gibbyware/GlassyBird/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="783" selection-end="783" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gibbyware/ZBHelpers/AssetLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="52" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gibbyware/GameObjects/Grass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="16" selection-start="88" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gibbyware/GameWorld/GameRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="17" selection-start="996" selection-end="1001" vertical-scroll-proportion="-6.36" vertical-offset="291" max-vertical-offset="3525">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gibbyware/GameWorld/GameWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="48" selection-start="862" selection-end="862" vertical-scroll-proportion="0.3962264" vertical-offset="186" max-vertical-offset="1575">
+          <folding />
         </state>
       </provider>
     </entry>

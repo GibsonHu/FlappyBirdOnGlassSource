@@ -30,7 +30,7 @@ public class AssetLoader {
         bg = new TextureRegion(texture, 0, 0, 136, 90);
         bg.flip(false, true);
 
-        grass = new TextureRegion(texture, 0, 43, 143, 11);
+        grass = new TextureRegion(texture, 0, 91, 29, 95);
         grass.flip(false, true);
 
         birdDown = new TextureRegion(texture, 136, 0, 17, 12);

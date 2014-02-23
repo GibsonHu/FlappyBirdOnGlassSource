@@ -195,10 +195,10 @@ public class GameRenderer {
 
         if (myWorld.isReady()) {
             // Draw shadow first
-            AssetLoader.shadow.draw(batcher, "Touch me", (136 / 2)
+            AssetLoader.shadow.draw(batcher, "Tap Glass", (136 / 2)
                     - (42), 76);
             // Draw text
-            AssetLoader.font.draw(batcher, "Touch me", (136 / 2)
+            AssetLoader.font.draw(batcher, "Tap Glass", (136 / 2)
                     - (42 - 1), 75);
         } else {
 
@@ -208,8 +208,6 @@ public class GameRenderer {
 
                 AssetLoader.shadow.draw(batcher, "Try again?", 23, 76);
                 AssetLoader.font.draw(batcher, "Try again?", 24, 75);
-
-
 
             }
 

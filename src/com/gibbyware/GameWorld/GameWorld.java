@@ -27,7 +27,7 @@ public class GameWorld {
         bird = new Bird(33, midPointY - 5, 17, 12);
         // The grass should start 66 pixels below the midPointY
         scroller = new ScrollHandler(this, midPointY + 66);
-        ground = new Rectangle(0, midPointY + 66, 137, 11);
+        ground = new Rectangle(0, midPointY + 83, 137, 11);
     }
 
     public void update(float delta) {
